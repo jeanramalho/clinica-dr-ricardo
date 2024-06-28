@@ -41,7 +41,7 @@
   }
   
   .home-1 {
-    background: url("./assets/bg-home.jpeg") no-repeat center center;
+    background: url("./assets/bg-home-lente.png") no-repeat center center;
     background-size: cover;
     height: 90vh;
     display: flex;
@@ -50,7 +50,7 @@
   }
 
   .logo-home1 {
-    height: 40%;
+    height: 60%;
   }
 
   .logo-home1 img {
