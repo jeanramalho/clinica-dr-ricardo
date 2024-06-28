@@ -30,6 +30,7 @@
   }
   
   nav {
+    padding: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -39,10 +40,22 @@
     height: 10vh;
   }
   
-  main {
-    background: url("bg.jpg") no-repeat center center;
+  .home-1 {
+    background: url("./assets/bg-home.jpeg") no-repeat center center;
     background-size: cover;
     height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo-home1 {
+    height: 40%;
+  }
+
+  .logo-home1 img {
+    display: block;
+    height: 100%;
   }
   
   .nav-list {
