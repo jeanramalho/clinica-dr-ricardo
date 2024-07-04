@@ -85,6 +85,24 @@
     body {
       overflow-x: hidden;
     }
+
+    .home-1 {
+      width: 100vw;
+      height: 40vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-home1 {
+      width: 80vw;
+    }
+
+    .logo-home1 img {
+      width: 100%;
+      height: auto;
+    }
+
     .nav-list {
       position: absolute;
       top: 8vh;
