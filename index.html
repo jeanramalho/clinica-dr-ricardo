@@ -1,44 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clínica Dr. Ricardo Jr.</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
+<html lang="en">
+<head>
 
-  <body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Clínica Dr Ricardo Jr</title>
+
+  <link rel="stylesheet" href="index.css">
+
+  <script src="index.js" defer></script>
+
+</head>
+
+<body>
+  
+  <main>
+
     <header>
-      <nav>
-        <a class="logo" href="/">
-            <img src="./assets/logo-dente.png" alt="Dr. Ricardo Jr" class="logo-img">
-        </a>
-        <div class="mobile-menu">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
-        <ul class="nav-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Clínica</a></li>
-          <li><a href="#">Dr. Ricardo Jr</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Lentes de Contato Dental</a></li>
-          <li><a href="#">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-        <div class="home-1">
-            <div class="logo-home1">
-                <img src="./assets/logo-sombra.png" alt="Logo da Clínica">
-            </div>
-            <div class="rsociais-home1">
+      <div class="logo">
+        <img src="./assets/logo-dente.png" alt="Logo Dr. Ricardo Jr." class="logo-dente">
+      </div>
 
-            </div>
+      <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
         </div>
-    </main>
-    <script src="index.js"></script>
-  </body>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Clínica</a></li>
+            <li><a href="#">Dr. Ricardo Jr.</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Lentes de Contato </br>Dental</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav> 
+      </div>
+      
+      <div class="menu-bg" id="menu-bg"></div>
+
+    </header>
+
+    <section class="img-home">
+          <div class="logo-main">
+              <img src="./assets/logo-sombra.png" alt="Logo da Clínica">
+          </div>
+    </section>
+
+  </main>
+
+
+</body>
 </html>
