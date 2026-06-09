@@ -134,6 +134,17 @@
     </svg>
   </a>
 
+  <div class="video-responsive">
+  <iframe
+    class="video-iframe"
+    src="https://leplayer.com.br/embed?user=20&player=rosa&video=y8qW7n3MlhA"
+    frameborder="0"
+    allow="autoplay; fullscreen"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
+
   <!-- Sessão Home -->
 
   <div id="Home" class="flex flex-1 items-center justify-center">
@@ -505,5 +516,22 @@
 
 
 </body>
+
+<style>
+  .video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .video-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+</style>
 
 </html>
